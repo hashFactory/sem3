@@ -6,8 +6,8 @@ public class StringLength
 {
     public static void main(String [] args) throws StringIndexOutOfBoundsException
     {
-        String sentence_1 = "Houston floods".toLowerCase();
-        String sentence_2 = "on flows".toLowerCase();
+        String sentence_1 = "Houston floods floods".toLowerCase();
+        String sentence_2 = " flows".toLowerCase();
         ArrayList<String> works = new ArrayList<>();
 
         for (int i = 0; i < sentence_1.length(); i++)
